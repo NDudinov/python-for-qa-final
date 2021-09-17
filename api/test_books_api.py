@@ -40,7 +40,7 @@ class TestBookIds:
 
 class TestBookLatest:
     """Class for testing BookLatest(Resource) endpoint"""
-    def test_get_latest(self):
+    def test_get_latest(self, add_test_book, delete_test_book):
         response = requests.get(url + 'latest?limit=1')
         assert_that(response.status_code, is_(HttpCodes.ok))
 
