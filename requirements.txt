@@ -1,0 +1,10 @@
+pytest
+requests
+pyhamcrest
+selenium
+allure-pytest
+chromedriver_py
+SQLAlchemy
+mysql-connector-python-rf
+pexpect
+paramiko
